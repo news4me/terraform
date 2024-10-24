@@ -2,7 +2,7 @@ terraform {
   cloud { 
     organization = "Philippe_Organisation" 
     workspaces { 
-      name = "Philippe_Workspace_01" 
+      name = "terraform" 
     } 
   } 
 }
