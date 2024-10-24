@@ -14,6 +14,7 @@ provider "aws" {
   secret_key = "Q2Fgwar8G8g+npX27z1VS/lAKwxL6erH6uVBech8" # Remplace par votre clé secrète
 }
 
+
 # Créer un bucket S3 simple sans utiliser `acl`
 resource "aws_s3_bucket" "my_bucket" {
   bucket = "philippe922802" # Remplace par un nom unique (your_name-5-digits)
