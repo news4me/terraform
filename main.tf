@@ -10,8 +10,8 @@ terraform {
 # Fournisseur AWS avec les identifiants directement dans le code
 provider "aws" {
   region     = "eu-west-1"
-  access_key = "AKIAQWTVESICABTFCGF7"                     # Remplace par votre clé d'accès
-  secret_key = "iHTbF8qA6mjGYQdGrEtYgr+yYlYJHu3VdttCE52W" # Remplace par votre clé secrète
+  access_key = "AKIAQWTVESICOHJCOCCQ"                     # Remplace par votre clé d'accès
+  secret_key = "1Rv+ktz3/B+0ScvMMu+VFKFZmevmcf2SyNNS42pN" # Remplace par votre clé secrète
 }
 
 
