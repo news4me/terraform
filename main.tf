@@ -17,7 +17,7 @@ provider "aws" {
 
 # Créer un bucket S3 simple sans utiliser `acl`
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "philippe922802" # Remplace par un nom unique (your_name-5-digits)
+  bucket = "philippe9229" # Remplace par un nom unique (your_name-5-digits)
   tags = {
     Name        = "MySimpleBucket"
     Environment = "dev"
