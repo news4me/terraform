@@ -19,7 +19,7 @@ variable "aws_access_key_id" {}
 # Fournisseur AWS avec les identifiants directement dans le code
 provider "aws" {
   region     = "eu-west-1"
-  access_key = var.aws_secret_access_key
+  access_key = var.aws_access_key_id
   secret_key = var.aws_secret_access_key
 }
 
