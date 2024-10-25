@@ -13,6 +13,9 @@ variable "bucket_name" {
   description = "philippe9239"
 }
 
+variable "aws_secret_access_key" {}
+variable "aws_access_key_id" {}
+
 # Fournisseur AWS avec les identifiants directement dans le code
 provider "aws" {
   region     = "eu-west-1"
